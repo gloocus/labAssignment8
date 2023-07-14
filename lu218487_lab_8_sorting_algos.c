@@ -156,8 +156,8 @@ void printArray(int pData[], int dataSz)
 {
 	int i, sz = dataSz - 100;
 	printf("\tData:\n\n\t");
-	if(dataSz > 100){
-	    for (i=0;i<200;++i)
+	if(dataSz > 200){
+	    for (i=0;i<100;++i)
 		    printf("%d ",pData[i]);
 	    printf("\n\t");
 	}
